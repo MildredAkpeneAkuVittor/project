@@ -1,0 +1,44 @@
+.choice-container{
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100% ;
+    font-size: 2rem;
+    border: 0.3rem solid rgba(red, green, blue, alpha);
+    background-color: rosybrown;
+}
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.6rem 1.6rem 0 rgb(red, green, blue);
+}
+.choice-prefix{
+    background-color: red;
+    padding:2rem 3rem;
+    color: seashell;
+}
+
+.choice-prefix{
+    padding:2rem 3rem;
+
+}
+.correct {
+    background-color: green
+}
+
+.incorect {
+    background-color: red;
+}
+
+#ht {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ht_prefix{
+    text-align: justify;
+    font-size: 15px;
+}
+.ht_main {
+    text-align: justify;
+    font-size: 10px;
+}
